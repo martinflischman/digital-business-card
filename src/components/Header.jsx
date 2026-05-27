@@ -4,7 +4,11 @@ export default function Header() {
   return (
     <>
       <figure>
-        <img src={avatar} alt="profile photo" />
+        <img
+          className="w-full max-h-80 object-cover"
+          src={avatar}
+          alt="profile photo"
+        />
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title text-2xl font-bold">Martin Flischman</h2>
